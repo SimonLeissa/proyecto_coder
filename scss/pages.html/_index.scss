@@ -1,0 +1,170 @@
+//SCSS solo para el index
+
+.productos_section{
+    background-color: $c-primario;
+}
+
+.productos{
+    padding-bottom: 30px;
+
+
+    &_titulo{
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    &_index{
+        text-transform: uppercase;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+            
+                &  div a{
+                    text-shadow: 0 0 5px black;
+                    text-decoration: none;
+                    color:snow;
+                    height: 100%;
+                    
+                    & h2{
+                        padding-top: 50%;
+                        backdrop-filter: blur(20px);
+                        backdrop-filter:invert(10%);
+                        backdrop-filter: brightness(60%);
+                        height: 100%;
+
+                        &:hover{
+                            font-weight: 800;
+                            text-shadow: black 1px;
+                            backdrop-filter: blur(10px);
+                            backdrop-filter:invert(5%);
+                            backdrop-filter: brightness(20%);
+                        }
+                    }
+                }
+            &_buzos{
+
+                background-image: url(../imagenes/imagenes.index.productos/buzo.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            
+            
+            }
+            &_camperas{
+                background-image: url(../imagenes/imagenes.index.productos/campera.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            }   
+            &_remeras{
+                background-image: url(../imagenes/imagenes.index.productos/remera.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            }         
+            &_pantalones{
+                background-image: url(../imagenes/imagenes.index.productos/pantalon.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            }
+            &_zapatillas{
+                background-image: url(../imagenes/imagenes.index.productos/zapatilla.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            }
+            &_gorras{
+                background-image: url(../imagenes/imagenes.index.productos/gorra.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            }
+            &_bolsos{
+                background-image: url(../imagenes/imagenes.index.productos/bolso.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            }
+            &_medias{
+                background-image: url(../imagenes/imagenes.index.productos/medias.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            }
+            &_medias{
+                background-image: url(../imagenes/imagenes.index.productos/medias.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 40vh;
+                width: 50%;
+            }
+        }
+}
+
+
+//mobile
+@media only screen and (min-width: 320px) and (max-width: 576px){
+.gif{
+    background-color:$c-secundario;
+    padding-top: 10px;
+    border-bottom: 1px black solid;
+
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+    &_texto{
+        padding: 2rem 2rem 1rem 2rem;
+        font-size: 17px;
+    }
+}
+
+.productos{
+
+
+    &_galeria{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        grid-auto-rows: 440px;
+            
+        }
+
+}
+}
+
+
+//TABLET
+
+@media only screen and (min-width: 576px){
+
+
+    .gif{
+        display: flex;
+            background-color: $c-secundario;
+        & img{
+            width: 50%;
+            height: 400px;
+        }
+        & p{
+            width: 50%;
+            text-align: center;
+        }
+    }
+    .productos_galeria{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+        grid-auto-rows: 480px;
+    }
+}
+
+

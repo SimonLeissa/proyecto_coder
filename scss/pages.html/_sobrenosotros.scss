@@ -1,0 +1,46 @@
+//SCSS solo para sobre nosotros
+
+@media only screen and (min-width: 300px) and (max-width: 576px){
+
+.aimara{
+    text-align: center;
+    &_foto{
+        width: 240px;
+        height: 240px;
+    }
+}
+
+.simon{
+    text-align: center;
+    &_foto{
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    
+    }
+}
+}
+
+/*PANTALLA GRANDE*/
+@media only screen and (min-width: 577px) {
+.aimara{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0px 20px 20px;
+}
+.aimara_foto{
+    width: 400px;
+    height: 400px;
+}
+.simon{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0px 20px 20px;
+}
+.simon_foto{
+    width: 350px;
+    height: 400px;
+}
+}

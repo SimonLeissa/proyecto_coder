@@ -1,0 +1,24 @@
+//Barra de navegacion comun para todos los html
+.navbar{
+    padding-left: 30px;
+    background:linear-gradient($c-primario 20%, $c-secundario);
+    width: 100%;
+}
+
+nav ul li{
+    font-weight: 700;
+    padding-left: 10px;
+
+    &:hover{
+        font-weight: 800;
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+.d-flex{
+    padding-left: 32rem;
+}
+
+}

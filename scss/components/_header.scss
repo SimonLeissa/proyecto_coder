@@ -1,0 +1,61 @@
+//Header para todos los html
+@media only screen and (min-width: 300px) and (max-width: 576px){
+    .arriba{
+        
+
+        &_header{
+            background-color:$c-primario;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 25vh; 
+            padding: 1rem;
+
+
+                &_imagen_logo{
+                    width: 130px;
+                    height: 130px;
+                    padding-top: 20px;
+
+                    }
+            }
+        }
+}
+
+@media only screen and (min-width: 577px){
+
+    .arriba{
+            
+            &_header{
+                background-color:$c-primario;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+
+                    &_titulo{
+                        margin: 0;    
+                    }
+
+    
+                &_imagen{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-grow: 1;
+                    margin-right: 120px;
+                    &_logo{
+                    width: 220px;
+                    height: 200px;                
+                    
+                    
+                    }
+                
+                }
+                
+            }
+
+    }
+
+
+}

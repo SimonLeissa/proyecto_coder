@@ -1,0 +1,167 @@
+//Footer para todos los html
+
+.footer{
+    background-color: black;
+    color: $c-blanco;
+        & ul, li, a{
+            text-decoration: none;
+            list-style: none;
+            color: white;
+        }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px){
+.footer{
+    text-align: center;
+        & div{
+            border-top: 1px solid white;
+            padding: 10px 10px 10px 10px;
+            
+        } 
+        
+    }
+}
+
+
+
+
+
+//DESKTOP//
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    footer{  
+        padding: 8px 8px 8px 8px;
+        
+    }
+
+    .footer_primerafila{
+        display: flex;
+        
+    }    
+    
+    
+    .contactanos, .seguinos {
+        flex-grow: 1;
+        padding: 20px;
+      }
+    
+      .contactanos{
+        border-right:2px $c-blanco solid ;
+        border-bottom: 2px $c-blanco solid;
+      }
+    
+      .seguinos{
+        border-bottom: 2px $c-blanco solid;
+      }
+    
+    
+      .lavado, .talle{
+        text-align: center;
+        padding: 20px;
+        border-bottom: 2px $c-blanco solid;
+      }
+
+
+
+    
+    .metodosdepago {
+        margin-top: 2rem;
+        padding-left: 2rem;
+        text-align: center;
+    
+    }
+    
+
+}
+
+//
+@media only screen and (min-width: 993px) and (max-width:1200px){
+ .footer{
+    border-top: 3px solid black;
+    background-color: black;
+    color: white;
+    display:grid;
+    grid-auto-rows: 290px;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+
+
+    &_primerafila{
+        border-right: 1px solid white;
+    }
+    &_segundafila{
+        border-right: 1px solid white;
+        padding-top: 88px;
+    }
+    }
+
+.seguinos{
+    border-top: 1px solid white;
+
+}
+.talle{
+    border-top: 1px solid white;
+}
+.metodosdepago{
+    padding-top: 75px;
+}
+}
+
+@media only screen and (min-width: 1201px) and (max-width:1600px) {
+    .footer{
+        border-top: 3px solid black;
+        background-color: black;
+        color: white;
+        display:grid;
+        grid-auto-rows: 290px;
+        grid-template-columns: repeat(auto-fill, minmax(24.5rem, 1fr));
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        &_primerafila{
+            border-right: 1px solid white;
+        }
+        &_segundafila{
+            border-right: 1px solid white;
+            padding-top: 88px;
+        }
+        }
+    .seguinos{
+        border-top: 1px solid white;
+    }
+    .talle{
+        border-top: 1px solid white;
+    }
+    .metodosdepago{
+        padding-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 1601px){
+    .footer{
+        border-top: 3px solid black;
+        background-color: black;
+        color: white;
+        display:grid;
+        grid-auto-rows: 290px;
+        grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        &_primerafila{
+            border-right: 1px solid white;
+        }
+        &_segundafila{
+            border-right: 1px solid white;
+            padding-top: 88px;
+        }
+        }
+    .seguinos{
+        border-top: 1px solid white;
+    }
+    .talle{
+        border-top: 1px solid white;
+    }
+    .metodosdepago{
+        padding-top: 75px;
+    }
+
+}

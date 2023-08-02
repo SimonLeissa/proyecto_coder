@@ -1,0 +1,28 @@
+//Carousel para el index version responsive
+
+.carousel-item{
+    width: 100%;
+    padding:40px 80px 40px 80px;
+    background-color: $c-terciario;
+
+}
+@media (max-width:575px){
+
+
+.carousel-item img{
+    width: 280px;
+    height: 250px;
+    
+
+}
+
+}
+
+@media (min-width:576px){
+    .carousel-item img{
+        width: 400px;
+        height: 350px;
+
+    }
+
+}

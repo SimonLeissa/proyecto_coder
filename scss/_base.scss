@@ -1,0 +1,70 @@
+//COLORES//
+$c-primario:rgb(140, 190, 194);
+$c-secundario:rgb(197, 225, 226) ;
+$c-terciario:rgb(2, 59, 82);
+$c-blanco:white;
+$c-negro:black;
+
+
+
+//TEXTOS//
+
+
+//TITULOS//
+
+
+
+//CSS PARA TODO EL INDEX//
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+main{
+   background-color: $c-primario;
+}
+
+html, body{
+   overflow-y: auto;
+   overflow-x:hidden ;
+   background-color: $c-secundario;
+}
+
+ul, li, a{
+   text-decoration: none;
+   list-style: none;
+}
+
+.a_titulo{
+   color: black;
+   text-decoration: none;
+}
+
+.clipped{
+   clip: rect(0, 0, 0, 0);
+   border: 0;
+   clip-path: inset(50%);
+   display: block;
+   margin: 0 -1px -1px 0;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   z-index: -1;
+}
+
+.btn{
+   border-radius: 2px solid black;
+}
+.form-control{
+   border-bottom: black 3px solid;
+   border-top: black 3px solid;
+   border-left: black 3px solid;
+   border-right: black 3px solid;
+}
+
+
+
+
+
